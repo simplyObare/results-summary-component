@@ -47,7 +47,7 @@ body {
    display: grid;
    padding: 2rem;
    text-align: center;
-   background-color: var(--Light-royal-blue-background);
+   background: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
    color: var(--White);
    border-radius: 1rem;
 }
@@ -60,8 +60,7 @@ body {
 
 .card .circle {
    border: 1px solid (--Violet-blue-circle);
-   box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
-   background-color: var(--Persian-blue-circle);
+   background: linear-gradient(to bottom, var(--Violet-blue-circle), var(--Persian-blue-circle));
    width: 9.5em;
    height: 9.5em;
    border-radius: 50%;
@@ -161,14 +160,14 @@ button {
    font-weight: 700;
    color: var(--White);
    width: 100%;
-   background-color: var(--Dark-gray-blue);
+   background: var(--Dark-gray-blue);
    border: none;
    border-radius: 1.5rem;
    cursor: pointer;
 }
 
 button:hover {
-   background-color: var(--Light-royal-blue-background);
+   background: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
 }
 
 .attribution {
